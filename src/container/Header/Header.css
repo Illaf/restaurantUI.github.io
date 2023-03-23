@@ -1,0 +1,38 @@
+.app__header{
+    background-color: var(--color-black);
+}
+.app__header h1{
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 117px;
+    font-size: 60px;
+    justify-content: center;
+    text-align: left;
+}
+.app__wrapper-img img{
+    display: flex;
+    width: 350px;
+    height: 300px;
+    margin-left: 740px;
+    margin-top: -445px;
+
+}
+@media screen and (max-width:1150px){
+    .app__wrapper-img img{
+        display:flex;
+        flex-direction: column;
+        height:269px;
+        width: 248px;
+        margin-top:-380px;
+        margin-left:550px;    
+        overflow-x:hidden;
+
+    }
+}
+@media screen and (max-width:650px){
+    .app__wrapper-img img{
+        display: none;
+    }
+}
